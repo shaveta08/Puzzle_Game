@@ -1089,7 +1089,7 @@ var d84 = t9.y-t4.y;
 
 
   if(t1.x+d11 == t4.x && t1.y == t4.y || t1.x-d12 == t4.x&& t1.y == t4.y && d12<5||t1.y+d13 == t4.y&&t1.x == t4.x&& d13<5||t1.y-d14 == t4.y && t1.x == t4.x&& d14<5){
-    if(mousePressedOver(t1)&& d11<160 && d12<160 && d13<160 && d14<160){
+    if(d11<160 && d12<160 && d13<160 && d14<160){
     var x = t1.x;
         var y = t1.y;
         t1.x = t4.x;
@@ -1097,10 +1097,11 @@ var d84 = t9.y-t4.y;
         t4.x = x;
         t4.y = y;
         moves = moves+1;
+        //touches=[];
       }
     }
     if(t2.x+d21 == t4.x && t2.y == t4.y|| t2.x-d22 == t4.x && t2.y == t4.y||t2.y+d23 == t4.y&&t2.x == t4.x||t2.y-d24 == t4.y&&t2.x == t4.x){
-     if(mousePressedOver(t2)&& d21<160 && d22<160 && d23<160 && d24<160){
+     if(d21<160 && d22<160 && d23<160 && d24<160){
        var x = t2.x;
        var y = t2.y;
        t2.x = t4.x;
@@ -1108,11 +1109,12 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
+       //touches = [];
   
      }
    }
    if(t3.x+d31 == t4.x && t3.y == t4.y|| t3.x-d32 == t4.x && t3.y == t4.y||t3.y+d33 == t4.y&&t3.x == t4.x||t3.y-d34 == t4.y&&t3.x == t4.x){
-     if(mousePressedOver(t3)&& d31<160 && d32<160 && d33<160 && d34<160){
+     if( d31<160 && d32<160 && d33<160 && d34<160){
        var x = t3.x;
        var y = t3.y;
        t3.x = t4.x;
@@ -1120,11 +1122,12 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
+       //touches = [];
   
      }
    }
    if(t5.x+d41 == t4.x && t5.y == t4.y|| t5.x-d42 == t4.x && t5.y == t4.y||t5.y+d43 == t4.y&&t5.x == t4.x||t5.y-d44 == t4.y&&t5.x == t4.x){
-     if(mousePressedOver(t5)&& d41<160 && d42<160 && d43<160 && d44<160){
+     if( d41<160 && d42<160 && d43<160 && d44<160){
        var x = t5.x;
        var y = t5.y;
        t5.x = t4.x;
@@ -1132,11 +1135,11 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
-  
+       //touches= [];
      }
    }
    if(t6.x+d51 == t4.x && t6.y == t4.y|| t6.x-d52 == t4.x && t6.y == t4.y||t6.y+d53 == t4.y&&t6.x == t4.x||t6.y-d54 == t4.y&&t6.x == t4.x){
-     if(mousePressedOver(t6)&& d51<160 && d52<160 && d53<160 && d54<160){
+     if( d51<160 && d52<160 && d53<160 && d54<160){
        var x = t6.x;
        var y = t6.y;
        t6.x = t4.x;
@@ -1144,11 +1147,11 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
-  
+      // touches = [];
      }
    }
    if(t7.x+d61 == t4.x && t7.y == t4.y|| t7.x-d62 == t4.x && t7.y == t4.y||t7.y+d63 == t4.y&&t7.x == t4.x||t7.y-d64 == t4.y&&t7.x == t4.x){
-     if(mousePressedOver(t7)&& d61<160 && d62<160 && d63<160 && d64<160){
+     if( d61<160 && d62<160 && d63<160 && d64<160){
        var x = t7.x;
        var y = t7.y;
        t7.x = t4.x;
@@ -1156,11 +1159,11 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
-  
+  //touches=[];
      }
    }
    if(t8.x+d71 == t4.x && t8.y == t4.y|| t8.x-d72 == t4.x && t8.y == t4.y||t8.y+d73 == t4.y&&t8.x == t4.x||t8.y-d74 == t4.y&&t8.x == t4.x){
-     if(mousePressedOver(t8)&& d71<160 && d72<160 && d73<160 && d74<160){
+     if(d71<160 && d72<160 && d73<160 && d74<160){
        var x = t8.x;
        var y = t8.y;
        t8.x = t4.x;
@@ -1168,11 +1171,11 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
-  
+     // touches = [];
      }
    }
    if(t9.x+d81 == t4.x && t9.y == t4.y|| t9.x-d82 == t4.x && t9.y == t4.y||t9.y+d83 == t4.y&&t9.x == t4.x||t9.y-d84 == t4.y&&t9.x == t4.x){
-     if(mousePressedOver(t9)&& d81<160 && d82<160 && d83<160 && d84<160){
+     if( d81<160 && d82<160 && d83<160 && d84<160){
        var x = t9.x;
        var y = t9.y;
        t9.x = t4.x;
@@ -1180,7 +1183,7 @@ var d84 = t9.y-t4.y;
        t4.y = y;
        t4.x = x;
        moves = moves+1;
-  
+  //touches=[];
      }
    }
   
@@ -1203,20 +1206,27 @@ function draw() {
   if(width<850){
     textposition=width/2+40;
   }
+  if(mouseIsPressed){
+    if(t1 && t2 && t3 && t4 && t5 && t6 && t7 && t8 && t9){
+      moveSprites();
+      // drawGrid();
+      textSize(20);
+    text('MOVES  :    '+moves,textposition,200);
+    }
+    console.log("HEllo");
+  }
   
-  if(t1 && t2 && t3 && t4 && t5 && t6 && t7 && t8 && t9){
- moveSprites();
- // drawGrid();
- textSize(20);
- text('MOVES  :    '+moves,textposition,200);
+    
 
 
 
-
-
-
-}
+  
+  
 
   drawSprites();
 
+}
+function touchStart()
+{
+  
 }
